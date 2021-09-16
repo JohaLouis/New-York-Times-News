@@ -1,0 +1,586 @@
+.container {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.container header {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100vh;
+  margin: 30px;
+}
+.container header ul {
+  display: flex;
+}
+.container header ul li {
+  margin-right: 20px;
+  list-style: none;
+  transition: transform 0.3s linear;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 5px 10px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+.container header ul li h6{
+  margin: 0px;
+  z-index: 1;
+  color: rgb(182, 99, 99);
+  transition: transform 0.3s linear;
+}
+.headerName{
+    position: relative;
+    margin-top: -10px;
+    margin-left: -140px;
+}
+.headerName h4{
+    margin: 0px;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.headerName h1{
+    margin: 0px;
+    font-size: 45px;
+}
+.headerName small{
+    position: absolute;
+    right: 57px;
+    top: 40%;
+    color: rgb(141, 5, 5);
+    font-weight: bolder;
+}
+.search{
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+.search a{
+  margin: 5px;
+  color: black;
+  cursor: pointer;
+}
+.search input{
+    height: 30px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.body{
+    width: 100%;
+    min-height: 80vh;
+    background-image: url(images/visuals-2TS23o0-pUc-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+}
+.body h3{
+    position: absolute;
+    font-weight: lighter;
+    font-style: italic;
+    width: 460px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-left: 70px;
+    margin-top: 200px;
+}
+.content{
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  overflow: hidden;
+}
+.img1{
+  width: 300px;
+  height: 330px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(images/09BAA7BB-6D57-43E6-B486-607B0695A991.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.img2{
+  width: 300px;
+  height: 230px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(images/1F6E6C81-BAE0-4B73-8DE2-777FC74FCDFA.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.img3{
+  width: 300px;
+  height: 430px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(images/34997947-9B31-4C8E-A26A-9C90B548EDF6.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.img4{
+  width: 300px;
+  height: 130px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(images/3DE53433-992C-443D-9CB6-294BF3871B81.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.img5{
+  width: 260px;
+  height: 130px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(images/588632F6-1CD8-4370-80F4-F11CF73F481C.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.img6{
+  width: 360px;
+  height: 260px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(images/64936444-0F77-49D9-8991-4DEF3A9392DE.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.img7{
+  width: 350px;
+  height: 330px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(images/699A3D97-A598-4019-95A1-0B9D3E340950.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.img8{
+  width: 330px;
+  height: 430px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(images/76E4D3EA-C7F6-47CE-BC90-67E3F70CBEA7.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.img9{
+  width: 330px;
+  height: 430px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(images/B0BB7114-2B8A-40F7-8C75-CB595767DD9D.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.img10{
+  width: 300px;
+  height: 230px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(images/B3FD92C0-76CC-412A-99C7-99C1EE8F7506.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.img11{
+  width: 330px;
+  height: 430px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(images/C99C26F5-39AE-4F78-8BBA-940F21A984A5.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.img12{
+  width: 330px;
+  height: 130px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(images/34997947-9B31-4C8E-A26A-9C90B548EDF6.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.img13{
+  width: 190px;
+  height: 230px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(images/CAE4F1E0-3878-4EFF-9D33-47F99820D218.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.img14{
+  width: 190px;
+  height: 330px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(images/D7942D1A-5C00-4C71-A838-913C6847E918.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.img15{
+  width: 210px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(images/DD7538B5-B228-4A62-B359-E4F5D86C0682.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.img16{
+  width: 200px;
+  height: 170px;
+  margin: 10px;
+  padding: 10px;
+  background-image: url(images/DF8C5929-F036-49FB-9977-76D0838D714C.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+/* css animations */
+.img1:hover{
+  transform: rotate(-30deg);
+  transform-origin: left top;
+  transition: transform 0.3s linear;
+}
+.img2:hover{
+  transform: rotate(30deg);
+  transform-origin: left top;
+  transition: transform 0.3s linear;
+}
+.img3:hover{
+  transform: rotate(-30deg);
+  transform-origin: left top;
+  transition: transform 0.3s linear;
+}
+.img4:hover{
+  transform: rotate(-30deg);
+  transform-origin: left top;
+  transition: transform 0.3s linear;
+}
+.img5:hover{
+  transform: rotate(30deg);
+  transform-origin: left top;
+  transition: transform 0.3s linear;
+}
+.img6:hover{
+  transform: rotate(-30deg);
+  transform-origin: left top;
+  transition: transform 0.3s linear;
+}
+.img7:hover{
+  transform: rotate(-30deg);
+  transform-origin: left top;
+  transition: transform 0.3s linear;
+}
+.img8:hover{
+  transform: rotate(-30deg);
+  transform-origin: left top;
+  transition: transform 0.3s linear;
+}
+.img9:hover{
+  transform: rotate(-30deg);
+  transform-origin: left top;
+  transition: transform 0.3s linear;
+}
+.img10:hover{
+  transform: rotate(30deg);
+  transform-origin: left top;
+  transition: transform 0.3s linear;
+}
+.img11:hover{
+  transform: rotate(-30deg);
+  transform-origin: left top;
+  transition: transform 0.3s linear;
+}
+.img12:hover{
+  transform: rotate(-30deg);
+  transform-origin: left top;
+  transition: transform 0.3s linear;
+}
+.img13:hover{
+  transform: rotate(30deg);
+  transform-origin: left top;
+  transition: transform 0.3s linear;
+}
+.img14:hover{
+  transform: rotate(-30deg);
+  transform-origin: left top;
+  transition: transform 0.3s linear;
+}
+.img15:hover{
+  transform: rotate(-30deg);
+  transform-origin: left top;
+  transition: transform 0.3s linear;
+}
+.img16:hover{
+  transform: rotate(30deg);
+  transform-origin: left top;
+  transition: transform 0.3s linear;
+}
+.con1 .img{
+  position: relative;
+}
+.con1 .img .text{
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+  z-index: -1;
+}
+.con1 .img .text button{
+  padding: 15px 10px;
+  border-radius: 30px;
+  background-color: rgb(117, 34, 34);
+  color: white;
+}
+.con1 .img_2{
+  position: relative;
+}
+.con1 .img_2 .text{
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  z-index: -1;
+}
+.con1 .img_2 .text button{
+  padding: 15px 10px;
+  border-radius: 30px;
+  background-color: rgb(117, 34, 34);
+  color: white;
+}
+.con2 .img_2{
+  position: relative;
+}
+.con2 .img_2 .text{
+  position: absolute;
+  top: 30px;
+  right: 120px;
+  z-index: -1;
+}
+.con2 .img_2 .text button{
+  padding: 15px 10px;
+  border-radius: 30px;
+  background-color: rgb(117, 34, 34);
+  color: white;
+}
+.con2 .img{
+  position: relative;
+}
+.con2 .img .text{
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+  z-index: -1;
+}
+.con2 .img .text button{
+  padding: 15px 10px;
+  border-radius: 30px;
+  background-color: rgb(117, 34, 34);
+  color: white;
+}
+.con3 .img{
+  position: relative;
+}
+.con3 .img .text{
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+  z-index: -1;
+}
+.con3 .img .text button{
+  padding: 15px 10px;
+  border-radius: 30px;
+  background-color: rgb(117, 34, 34);
+  color: white;
+}
+.con3 .img_2{
+  position: relative;
+}
+.con3 .img_2 .text{
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  z-index: -1;
+}
+.con3 .img_2 .text button{
+  padding: 15px 10px;
+  border-radius: 30px;
+  background-color: rgb(117, 34, 34);
+  color: white;
+}
+.con4 .img_2{
+  position: relative;
+}
+.con4 .img_2 .text{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  z-index: -1;
+}
+.con4 .img_2 .text button{
+  padding: 15px 10px;
+  border-radius: 30px;
+  background-color: rgb(117, 34, 34);
+  color: white;
+}
+.con4 .img{
+  position: relative;
+}
+.con4 .img .text{
+  position: absolute;
+  bottom: 30px;
+  left: 10px;
+  z-index: -1;
+}
+.con4 .img .text button{
+  padding: 15px 10px;
+  border-radius: 30px;
+  background-color: rgb(117, 34, 34);
+  color: white;
+}
+header ul li .color{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  border-radius: 30px;
+  transform: translateY(-100%);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: transform 0.3s linear;
+}
+.container header ul li:hover .color{
+  transform: translateY(0%);
+  transition: transform 0.3s linear;
+  transition-delay: 0.3s;
+}
+.container header ul li:hover h6{
+  transform: translateY(140%);
+  transform: transition 0.3s linear;
+}
+/* hidden parts with JS codes */
+.body .newsFeed{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 400px;
+  background-color: rgb(240, 239, 222);
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid rgb(163, 22, 22);
+  transform: translateX(-100%);
+  transition: transform 0.3s linear;
+}
+.body .newsFeed p{
+  margin-top: 40px;
+}
+.body .newsFeed p button{
+  padding: 5px 10px;
+  border-radius: 30px;
+  background-color: wheat;
+  border: none;
+}
+.body .newsFeed h3{
+  margin: 0px;
+  color: rgb(163, 22, 22);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 15%;
+}
+.body .newsFeed .btn{
+  margin: 0px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  transform: scale(1.3);
+  background: transparent;
+  border-radius: 30px;
+}
+.body .newsFeed.show{
+  transform: translateX(0%);
+  transition: transform 0.3s linear;
+}
+#timesCartoons{
+  position: absolute;
+  top: 80px;
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  background-color: rgb(240, 239, 222);
+  border-radius: 20px;
+  border: 2px solid rgb(155, 28, 28);
+  transform: translateX(-100%);
+  transition: transform 0.3s linear;
+}
+#timesCartoons p{
+  margin-top: 40px;
+}
+#timesCartoons h3{
+  margin: 0px;
+  color: rgb(163, 22, 22);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 15%;
+}
+#timesCartoons p button{
+  padding: 5px 10px;
+  border-radius: 30px;
+  border: none;
+}
+#timesCartoons .btn{
+  margin: 0px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  transform: scale(1.3);
+  background: transparent ;
+  border-radius: 30px;
+}
+#timesCartoons.show{
+  transform: translateX(0%);
+  transition: transform 0.3s linear
+}
